@@ -1,3 +1,4 @@
+
 .container {
   background-color: #ffffff;
   padding: 0 50rpx;
@@ -56,6 +57,9 @@
   width: 100%;
   text-align: center;
 }
+.navigation .navigation-cell view text {
+  color: #000;
+}
 .popular {
 
 }
@@ -94,5 +98,5 @@
   text-overflow: ellipsis; /* 显示省略号 */
 }
 .popular .popular-list .popular-goods .goods-price {
-  color: #f67a3e;
+  color: var(--pink);
 }

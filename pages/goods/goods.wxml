@@ -187,7 +187,7 @@
 			</button>
 </view>
   <view class="l l-collect" bindtap="addCollectOrNot" wx:if="{{!isGroupon}}">
-    <van-icon class="icon" name="star" color="#ab956d" wx:if="{{collect}}"/>
+    <van-icon class="icon" name="star" color="var(--pink)" wx:if="{{collect}}"/>
     <van-icon class="icon" name="star-o" wx:else/>
   </view>
   <view class="l l-cart" wx:if="{{!isGroupon}}">

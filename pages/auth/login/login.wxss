@@ -11,7 +11,6 @@
   margin: 60rpx 0 40rpx 0;
   height: 96rpx;
   line-height: 96rpx;
-  font-size: 30rpx;
   border-radius: 6rpx;
   width: 90%;
   color: #fff;
@@ -37,7 +36,6 @@
   width: 90%;
   margin: 0 auto;
   color: #fff;
-  font-size: 30rpx;
   height: 96rpx;
   line-height: 96rpx;
   right: 0;

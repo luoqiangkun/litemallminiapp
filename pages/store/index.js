@@ -29,8 +29,8 @@ Page({
     goodsNumber:1
   },
   onLoad: function (options) {
-    this.getCatalog()
-    this.getCartList()
+    // this.getCatalog()
+    // this.getCartList()
   },
   getCatalog: function() {
     //CatalogList

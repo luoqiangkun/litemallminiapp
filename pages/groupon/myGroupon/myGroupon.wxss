@@ -25,7 +25,7 @@ page {
   padding: 0 20rpx;
   line-height: 82rpx;
   color: #333;
-  font-size: 30rpx;
+
   width: 100%;
 }
 
@@ -165,7 +165,7 @@ page {
   height: 44rpx;
   line-height: 44rpx;
   color: #333;
-  font-size: 30rpx;
+
 }
 
 .order .goods .number {
@@ -188,7 +188,7 @@ page {
   margin-left: 31.25rpx;
   padding-right: 31.25rpx;
   border-top: 1px solid #f4f4f4;
-  font-size: 30rpx;
+
   color: #333;
 }
 

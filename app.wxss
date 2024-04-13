@@ -1,4 +1,8 @@
 /**app.wxss**/
+page {
+  --pink: #FF69B4;
+  --blue: #ADD8E6;
+}
 .container {
   box-sizing: border-box;
   background-color: #f4f4f4;

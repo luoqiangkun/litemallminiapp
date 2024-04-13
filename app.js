@@ -38,6 +38,11 @@ App({
       }
     })
     
+    // wx.loadFontFace({
+    //   family: 'Smart',
+    //   source: 'url("https://smart-area-api.t.cn-np.com/static/fonts/Smart.ttf")',
+    //   global: true
+    // })
   },
   onShow: function(options) {
     user.checkLogin().then(res => {

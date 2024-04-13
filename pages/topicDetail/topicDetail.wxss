@@ -198,7 +198,7 @@
   display: block;
   color: #333;
   line-height: 50rpx;
-  font-size: 30rpx;
+
 }
 
 .topic-goods .b .desc {
@@ -212,7 +212,7 @@
 .topic-goods .b .price {
   width: 476rpx;
   display: flex;
-  color: #b4282d;
+  color: var(--pink);
   line-height: 50rpx;
   font-size: 33rpx;
 }
@@ -240,7 +240,7 @@
   width: 290rpx;
   height: 45rpx;
   line-height: 45rpx;
-  font-size: 30rpx;
+
   color: #999;
   text-align: center;
 }

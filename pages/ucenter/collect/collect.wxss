@@ -30,13 +30,13 @@ page {
   padding: 0 20rpx;
   line-height: 82rpx;
   color: #9a9ba1;
-  font-size: 30rpx;
+
   width: 170rpx;
 }
 
 .collect-switch .item.active .txt {
-  color: #ab956d;
-  border-bottom: 4rpx solid #ab956d;
+  color: var(--pink);
+  border-bottom: 4rpx solid var(--pink);
 }
 
 .no-collect {
@@ -181,6 +181,6 @@ page {
   height: 27rpx;
   line-height: 27rpx;
   overflow: hidden;
-  color: #b4282d;
+  color: var(--pink);
   font-size: 27rpx;
 }

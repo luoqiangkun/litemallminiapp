@@ -19,7 +19,7 @@ page {
   height: 80rpx;
   border: none;
   width: 700rpx;
-  background: #28b43b;
+  background: var(--pink);
   color: #fff;
   font-size: 40rpx;
   text-align: center;
@@ -68,7 +68,7 @@ page {
 
 .discount {
   font-size: 50rpx;
-  color: #b4282d;
+  color: var(--pink);
 }
 
 .min {

@@ -54,7 +54,7 @@ page {
 
 .discount {
   font-size: 50rpx;
-  color: #b4282d;
+  color: var(--pink);
 }
 
 .min {

@@ -38,7 +38,7 @@ page {
   line-height: 42rpx;
   color: #666;
   padding-left: 10rpx;
-  font-size: 30rpx;
+
 }
 
 .catalog {
@@ -65,9 +65,9 @@ page {
 }
 
 .catalog .nav .item.active {
-  color: #ab956d;
+  color: var(--pink);
   font-size: 36rpx;
-  border-left: 6rpx solid #ab956d;
+  border-left: 6rpx solid var(--pink);
 }
 
 .catalog .cate {

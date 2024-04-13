@@ -41,7 +41,7 @@ page, .container {
   height: 44rpx;
   line-height: 44rpx;
   color: #333;
-  font-size: 30rpx;
+
 }
 
 .post-comment .goods .number {
@@ -54,7 +54,7 @@ page, .container {
 
 .post-comment .goods .status {
   width: 105rpx;
-  color: #b4282d;
+  color: var(--pink);
   font-size: 25rpx;
 }
 

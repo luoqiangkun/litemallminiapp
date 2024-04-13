@@ -19,14 +19,14 @@ page {
 
 .order-goods .h .label {
   float: left;
-  font-size: 30rpx;
+
   color: #333;
 }
 
 .order-goods .h .status {
   float: right;
-  font-size: 30rpx;
-  color: #b4282d;
+
+  color: var(--pink);
 }
 
 .order-goods .item {
@@ -72,7 +72,7 @@ page {
   height: 33rpx;
   line-height: 33rpx;
   color: #333;
-  font-size: 30rpx;
+
 }
 
 .order-goods .item .t .number {
@@ -82,7 +82,7 @@ page {
   text-align: right;
   line-height: 33rpx;
   color: #333;
-  font-size: 30rpx;
+
 }
 
 .order-goods .item .attr {
@@ -99,5 +99,5 @@ page {
   height: 30rpx;
   line-height: 30rpx;
   color: #333;
-  font-size: 30rpx;
+
 }

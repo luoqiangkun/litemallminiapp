@@ -22,7 +22,7 @@
         <view class="group-item">
           <view class="goods">
             <view class="item {{isEditCart ? 'edit' : ''}}" wx:for="{{cartGoods}}" wx:key="id">
-              <van-checkbox value="{{ item.checked }}" bind:change="checkedItem" data-item-index="{{index}}"></van-checkbox>
+              <van-checkbox value="{{ item.checked }}" bind:change="checkedItem" data-item-index="{{index}}" checked-color="var(--pink)"></van-checkbox>
               <view class="cart-goods">
                 <image class="img" src="{{item.picUrl}}"></image>
                 <view class="info">
@@ -47,7 +47,7 @@
 
       </view>
       <view class="cart-bottom">
-        <van-checkbox value="{{ checkedAllStatus }}" bind:change="checkedAll">全选（{{cartTotal.checkedGoodsCount}}）</van-checkbox>
+        <van-checkbox value="{{ checkedAllStatus }}" bind:change="checkedAll" checked-color="var(--pink)">全选（{{cartTotal.checkedGoodsCount}}）</van-checkbox>
         <view class="total">{{!isEditCart ? '￥'+cartTotal.checkedGoodsAmount : ''}}</view>
         <view class='action_btn_area'>
           <view class="{{!isEditCart ? 'edit' : 'sure'}}" bindtap="editCart">{{!isEditCart ? '编辑' : '完成'}}</view>

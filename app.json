@@ -42,11 +42,12 @@
     "pages/ucenter/aftersaleList/aftersaleList",
     "pages/ucenter/aftersaleDetail/aftersaleDetail",
     "pages/store/index",
-    "pages/home/index"
+    "pages/home/index",
+    "pages/demo/index"
   ],
   "window": {
     "navigationBarBackgroundColor": "#FFFFFF",
-    "navigationBarTitleText": "小程序商城",
+    "navigationBarTitleText": "小程序",
     "enablePullDownRefresh": false,
     "navigationBarTextStyle": "black",
     "backgroundColor": "#FFFFFF",
@@ -56,31 +57,31 @@
   "tabBar": {
     "backgroundColor": "#fafafa",
     "borderStyle": "white",
-    "selectedColor": "#AB956D",
+    "selectedColor": "#FF69B4",
     "color": "#666",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "iconPath": "static/images/home.png",
-        "selectedIconPath": "static/images/home@selected.png",
+        "iconPath": "static/images/index@1.0.1.png",
+        "selectedIconPath": "static/images/index_active@1.0.1.png",
         "text": "首页"
       },
       {
         "pagePath": "pages/store/index",
-        "iconPath": "static/images/category.png",
-        "selectedIconPath": "static/images/category@selected.png",
+        "iconPath": "static/images/store@1.0.1.png",
+        "selectedIconPath": "static/images/store_active@1.0.1.png",
         "text": "店铺"
       },
       {
         "pagePath": "pages/cart/cart",
-        "iconPath": "static/images/cart.png",
-        "selectedIconPath": "static/images/cart@selected.png",
+        "iconPath": "static/images/cart@1.0.1.png",
+        "selectedIconPath": "static/images/cart_active@1.0.1.png",
         "text": "购物车"
       },
       {
         "pagePath": "pages/ucenter/index/index",
-        "iconPath": "static/images/my.png",
-        "selectedIconPath": "static/images/my@selected.png",
+        "iconPath": "static/images/user@1.0.1.png",
+        "selectedIconPath": "static/images/user_active@1.0.1.png",
         "text": "个人"
       },
       {

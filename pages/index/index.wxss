@@ -171,7 +171,7 @@
     display: block;
     color: #333;
     line-height: 50rpx;
-    font-size: 30rpx;
+  
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -187,7 +187,7 @@
 .a-groupon .b .price {
   width: 476rpx;
   display: flex;
-  color: #ab956d;
+  color: var(--pink);
   line-height: 50rpx;
   font-size: 33rpx;
 }
@@ -235,7 +235,7 @@
   height: 35rpx;
   margin-bottom: 14rpx;
   overflow: hidden;
-  font-size: 30rpx;
+
   color: #333;
 }
 
@@ -243,8 +243,8 @@
   display: block;
   text-align: center;
   line-height: 30rpx;
-  font-size: 30rpx;
-  color: #ab956d;
+
+  color: var(--pink);
 }
 
 .a-popular {
@@ -291,7 +291,7 @@
   display: block;
   color: #333;
   line-height: 50rpx;
-  font-size: 30rpx;
+
 }
 
 .a-popular .b .desc {
@@ -305,7 +305,7 @@
 .a-popular .b .price {
   width: 456rpx;
   display: block;
-  color: #ab956d;
+  color: var(--pink);
   line-height: 50rpx;
   font-size: 33rpx;
 }
@@ -344,12 +344,12 @@
   height: 35rpx;
   margin-bottom: 13.5rpx;
   color: #333;
-  font-size: 30rpx;
+
 }
 
 .a-topic .b .np .price {
   margin-left: 20.8rpx;
-  color: #ab956d;
+  color: var(--pink);
 }
 
 .a-topic .b .desc {
@@ -418,7 +418,7 @@
   height: 35rpx;
   margin: 11.5rpx 0 22rpx 0;
   text-align: center;
-  font-size: 30rpx;
+
   color: #333;
 }
 
@@ -427,8 +427,8 @@
   width: 365.625rpx;
   height: 30rpx;
   text-align: center;
-  font-size: 30rpx;
-  color: #ab956d;
+
+  color: var(--pink);
 }
 
 .good-grid .t {
@@ -466,7 +466,7 @@
   line-height: 42rpx;
   color: #666;
   padding-left: 10rpx;
-  font-size: 30rpx;
+
 }
 
 /* 优惠券 */

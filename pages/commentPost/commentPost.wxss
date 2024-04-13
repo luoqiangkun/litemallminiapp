@@ -41,7 +41,6 @@ page, .container {
   height: 44rpx;
   line-height: 44rpx;
   color: #333;
-  font-size: 30rpx;
 }
 
 .post-comment .goods .number {
@@ -54,7 +53,7 @@ page, .container {
 
 .post-comment .goods .status {
   width: 105rpx;
-  color: #b4282d;
+  color: var(--pink);
   font-size: 25rpx;
 }
 
@@ -65,7 +64,6 @@ page, .container {
 }
 
 .post-comment .rater .rater-title {
-  font-size: 29rpx;
   padding-right: 10rpx;
 }
 
@@ -76,7 +74,6 @@ page, .container {
 }
 
 .post-comment .rater .rater-desc {
-  font-size: 29rpx;
   padding-left: 10rpx;
 }
 
@@ -93,7 +90,6 @@ page, .container {
   left: 0;
   display: block;
   background: #fff;
-  font-size: 29rpx;
   border: 5px solid #f4f4f4;
   height: 300rpx;
   width: 650rpx;
@@ -107,7 +103,6 @@ page, .container {
   display: block;
   height: 30rpx;
   width: 50rpx;
-  font-size: 29rpx;
   color: #999;
 }
 

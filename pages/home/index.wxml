@@ -1,6 +1,6 @@
 <view class="container index">
-
-  <view class="welcome">您好！遇见美食</view>
+<!-- 
+  <view class="welcome">您好！遇见美食</view> -->
 
   <view class="search">
     <view class="search-inner">
@@ -25,7 +25,7 @@
     <view class="navigation-cell">
       <navigator url="pages/coupon/coupon">
         <view>
-          <van-icon name="gift-o" size="100rpx" color="#f67a3e" />
+          <van-icon name="gift-o" size="100rpx" color="var(--pink)" />
         </view>
         <view>
           <text>礼品</text>
@@ -35,7 +35,7 @@
     <view class="navigation-cell">
       <navigator url="/pages/coupon/coupon">
         <view>
-          <van-icon name="coupon-o" size="100rpx" color="#f67a3e" />
+          <van-icon name="coupon-o" size="100rpx" color="var(--pink)" />
         </view>
         <view>
           <text>优惠券</text>
@@ -45,7 +45,7 @@
     <view class="navigation-cell">
       <navigator url="/pages/store/index">
         <view>
-          <van-icon name="shop-collect-o" size="100rpx" color="#f67a3e"/>
+          <van-icon name="shop-collect-o" size="100rpx" color="var(--pink)"/>
         </view>
         <view>
           <text>小店</text>
@@ -69,3 +69,5 @@
     </view>
   </view>
 </view>
+
+

@@ -35,7 +35,6 @@ page {
   width: 125rpx;
   height: 43rpx;
   line-height: 43rpx;
-  font-size: 30rpx;
   color: #333;
   margin-bottom: 5rpx;
 }
@@ -46,11 +45,10 @@ page {
   width: 62rpx;
   height: 33rpx;
   border-radius: 5rpx;
-  border: 1px solid #b4282d;
-  font-size: 20.5rpx;
+  border: 1px solid var(--pink);
   text-align: center;
   line-height: 29rpx;
-  color: #b4282d;
+  color: var(--pink);
 }
 
 .address-box .m {
@@ -64,7 +62,6 @@ page {
   height: 29rpx;
   line-height: 29rpx;
   margin-bottom: 6.25rpx;
-  font-size: 30rpx;
   color: #333;
 }
 
@@ -72,7 +69,6 @@ page {
   display: block;
   height: 37.5rpx;
   line-height: 37.5rpx;
-  font-size: 25rpx;
   color: #666;
 }
 
@@ -114,13 +110,11 @@ page {
 
 .coupon-box .l .name {
   float: left;
-  font-size: 30rpx;
   color: #666;
 }
 
 .coupon-box .l .txt {
   float: right;
-  font-size: 30rpx;
   color: #666;
 }
 
@@ -151,9 +145,7 @@ page {
   overflow: hidden;
   background: #fff;
   display: flex;
-  margin-left: 31.25rpx;
-  padding-right: 31.25rpx;
-  padding-top: 26rpx;
+  padding: 25rpx;
 }
 
 .order-box {
@@ -245,7 +237,6 @@ page {
   line-height: 33rpx;
   margin-bottom: 10rpx;
   overflow: hidden;
-  font-size: 30rpx;
   color: #333;
 }
 
@@ -265,7 +256,6 @@ page {
   overflow: hidden;
   line-height: 29rpx;
   margin-bottom: 25rpx;
-  font-size: 25rpx;
   color: #666;
 }
 
@@ -273,7 +263,6 @@ page {
   height: 41rpx;
   overflow: hidden;
   line-height: 41rpx;
-  font-size: 30rpx;
   color: #333;
 }
 
@@ -290,9 +279,8 @@ page {
   flex: 1;
   height: 100rpx;
   line-height: 100rpx;
-  color: #b4282d;
+  color: var(--pink);
   background: #fff;
-  font-size: 33rpx;
   padding-left: 31.25rpx;
   border-top: 1rpx solid rgba(0, 0, 0, 0.2);
   border-bottom: 1rpx solid rgba(0, 0, 0, 0.2);
@@ -301,10 +289,9 @@ page {
 .order-total .r {
   width: 233rpx;
   height: 100rpx;
-  background: #b4282d;
-  border: 1px solid #b4282d;
+  background: var(--pink);
+  border: 1px solid var(--pink);
   line-height: 100rpx;
   text-align: center;
   color: #fff;
-  font-size: 30rpx;
 }

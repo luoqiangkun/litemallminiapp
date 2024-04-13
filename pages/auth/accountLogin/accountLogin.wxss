@@ -23,7 +23,6 @@
   height: 44rpx;
   background: #fff;
   color: #333;
-  font-size: 30rpx;
 }
 
 .form-item-code {
@@ -58,7 +57,6 @@
   margin: 60rpx 0 40rpx 0;
   height: 96rpx;
   line-height: 96rpx;
-  font-size: 30rpx;
   border-radius: 6rpx;
   width: 90%;
   color: #fff;

@@ -25,13 +25,13 @@ page {
   padding: 0 20rpx;
   line-height: 82rpx;
   color: #9a9ba1;
-  font-size: 30rpx;
+
   width: 170rpx;
 }
 
 .orders-switch .item.active .txt {
-  color: #ab956d;
-  border-bottom: 4rpx solid #ab956d;
+  color: var(--pink);
+  border-bottom: 4rpx solid var(--pink);
 }
 
 .no-order {
@@ -74,7 +74,7 @@ page {
   margin-left: 31.25rpx;
   padding-right: 31.25rpx;
   border-bottom: 1px solid #f4f4f4;
-  font-size: 30rpx;
+
   color: #333;
 }
 
@@ -84,7 +84,7 @@ page {
 
 .order .h .r {
   float: right;
-  color: #b4282d;
+  color: var(--pink);
   font-size: 24rpx;
 }
 
@@ -118,7 +118,7 @@ page {
   height: 44rpx;
   line-height: 44rpx;
   color: #333;
-  font-size: 30rpx;
+
 }
 
 .order .goods .number {
@@ -131,7 +131,7 @@ page {
 
 .order .goods .status {
   width: 105rpx;
-  color: #b4282d;
+  color: var(--pink);
   font-size: 25rpx;
 }
 
@@ -141,7 +141,7 @@ page {
   margin-left: 31.25rpx;
   padding-right: 31.25rpx;
   border-top: 1px solid #f4f4f4;
-  font-size: 30rpx;
+
   color: #333;
 }
 
@@ -162,5 +162,5 @@ page {
   border-radius: 5rpx;
   font-size: 28rpx;
   color: #fff;
-  background: #b4282d;
+  background: var(--pink);
 }

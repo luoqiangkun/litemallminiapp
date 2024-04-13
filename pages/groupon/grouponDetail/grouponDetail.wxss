@@ -36,7 +36,7 @@ page {
 .item-c .btn {
   float: right;
   line-height: 66rpx;
-  font-size: 30rpx;
+
   border-radius: 5rpx;
   text-align: center;
   margin: 0 15rpx;
@@ -64,14 +64,14 @@ page {
 
 .order-goods .h .label {
   float: left;
-  font-size: 30rpx;
+
   color: #333;
 }
 
 .order-goods .h .status {
   float: right;
-  font-size: 30rpx;
-  color: #b4282d;
+
+  color: var(--pink);
 }
 
 .order-goods .item {
@@ -117,7 +117,7 @@ page {
   height: 33rpx;
   line-height: 33rpx;
   color: #333;
-  font-size: 30rpx;
+
 }
 
 .order-goods .item .t .number {
@@ -127,7 +127,7 @@ page {
   text-align: right;
   line-height: 33rpx;
   color: #333;
-  font-size: 30rpx;
+
 }
 
 .order-goods .item .attr {
@@ -144,7 +144,7 @@ page {
   height: 30rpx;
   line-height: 30rpx;
   color: #333;
-  font-size: 30rpx;
+
 }
 
 .order-goods .item .btn {
@@ -159,7 +159,7 @@ page {
 }
 
 .order-goods .item .btn.active {
-  background: #b4282d;
+  background: var(--pink);
   color: #fff;
 }
 
@@ -188,20 +188,20 @@ page {
   height: 35rpx;
   width: 140rpx;
   line-height: 35rpx;
-  font-size: 30rpx;
+
 }
 
 .order-bottom .address .mobile {
   display: inline-block;
   height: 35rpx;
   line-height: 35rpx;
-  font-size: 30rpx;
+
 }
 
 .order-bottom .address .b {
   height: 35rpx;
   line-height: 35rpx;
-  font-size: 30rpx;
+
 }
 
 .order-bottom .total {
@@ -220,14 +220,14 @@ page {
   width: 150rpx;
   height: 35rpx;
   line-height: 35rpx;
-  font-size: 30rpx;
+
 }
 
 .order-bottom .total .t .txt {
   float: right;
   height: 35rpx;
   line-height: 35rpx;
-  font-size: 30rpx;
+
   padding-right: 31.25rpx;
 }
 
@@ -267,13 +267,13 @@ page {
 
 .menu-list-pro .h .label {
   float: left;
-  font-size: 30rpx;
+
   color: #333;
 }
 
 .menu-list-pro .h .status {
   float: right;
-  font-size: 30rpx;
+
   color: #a78845;
 }
 

@@ -12,7 +12,7 @@ page {
 }
 
 .profile-info {
-  background-color: #ab956d;
+  background-color: var(--pink);
   color: #f4f4f4;
   display: flex;
   align-items: center;
@@ -47,7 +47,7 @@ page {
   line-height: 30rpx;
   margin-bottom: 10rpx;
   color: #7f7f7f;
-  font-size: 30rpx;
+
 }
 
 .user_area {
@@ -109,7 +109,7 @@ page {
   height: 28rpx;
   width: 28rpx;
   position: absolute;
-  background: #b4282d;
+  background: var(--pink);
   color: #fff;
   border-radius: 50%;
   margin-top: 20rpx;
@@ -161,5 +161,5 @@ page {
   text-align: center;
   background: #fff;
   color: red;
-  font-size: 30rpx;
+
 }

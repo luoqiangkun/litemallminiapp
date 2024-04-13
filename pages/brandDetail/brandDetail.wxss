@@ -54,7 +54,6 @@ page {
   height: auto;
   overflow: hidden;
   padding: 41.5rpx 31.25rpx;
-  font-size: 30rpx;
   color: #666;
   line-height: 41.5rpx;
   text-align: center;
@@ -97,7 +96,6 @@ page {
   overflow: hidden;
   margin: 11.5rpx 0 22rpx 0;
   text-align: center;
-  font-size: 30rpx;
   color: #333;
 }
 
@@ -106,6 +104,5 @@ page {
   width: 365.625rpx;
   height: 30rpx;
   text-align: center;
-  font-size: 30rpx;
-  color: #b4282d;
+  color: var(--pink);
 }

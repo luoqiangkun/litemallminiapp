@@ -44,7 +44,7 @@ page {
 }
 
 .item-c .cost {
-  color: #b4282d;
+  color: var(--pink);
 }
 
 .item-c .btn {
@@ -57,7 +57,7 @@ page {
 }
 
 .item-c .btn.active {
-  background: #b4282d;
+  background: var(--pink);
   color: #fff;
 }
 
@@ -76,14 +76,14 @@ page {
 
 .order-goods .h .label {
   float: left;
-  font-size: 30rpx;
+
   color: #333;
 }
 
 .order-goods .h .status {
   float: right;
-  font-size: 30rpx;
-  color: #b4282d;
+
+  color: var(--pink);
 }
 
 .order-goods .item {
@@ -129,7 +129,7 @@ page {
   height: 33rpx;
   line-height: 33rpx;
   color: #333;
-  font-size: 30rpx;
+
 }
 
 .order-goods .item .t .number {
@@ -139,7 +139,7 @@ page {
   text-align: right;
   line-height: 33rpx;
   color: #333;
-  font-size: 30rpx;
+
 }
 
 .order-goods .item .attr {
@@ -156,7 +156,7 @@ page {
   height: 30rpx;
   line-height: 30rpx;
   color: #333;
-  font-size: 30rpx;
+
 }
 
 .order-goods .item .btn {
@@ -171,7 +171,7 @@ page {
 }
 
 .order-goods .item .btn.active {
-  background: #b4282d;
+  background: var(--pink);
   color: #fff;
 }
 
@@ -194,7 +194,7 @@ page {
 .order-bottom .address .b {
   height: 60rpx;
   line-height: 60rpx;
-  font-size: 30rpx;
+
   border-bottom: 1px solid #f4f4f4;
   text-align: right;
 }
@@ -215,13 +215,13 @@ page {
 .order-bottom .pay-fee .label {
   display: inline-block;
   width: 140rpx;
-  color: #b4282d;
+  color: var(--pink);
 }
 
 .order-bottom .pay-fee .txt {
   display: inline-block;
   width: 140rpx;
-  color: #b4282d;
+  color: var(--pink);
 }
 
 .order-express {
